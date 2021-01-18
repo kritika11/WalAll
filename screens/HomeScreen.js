@@ -3,7 +3,7 @@ import {View, StyleSheet } from 'react-native';
 
 import ScreenName from '../components/ScreenName.js'
 
-export default class ReferralsScreen extends React.Component{
+export default class HomeScreen extends React.Component{
     static navigationOptions = {
 
     };
@@ -12,7 +12,7 @@ export default class ReferralsScreen extends React.Component{
         return (
             <React.Fragment>
                 <View style={styles.container}>
-                    <ScreenName name={'My Referrals'} />
+                    <ScreenName name={'Home'} />
                 </View>
             </React.Fragment>
         );

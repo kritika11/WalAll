@@ -2,7 +2,6 @@ import React from 'react';
 import {View, StyleSheet, Image, Text } from 'react-native';
 
 import ScreenName from '../components/ScreenName.js'
-import Header from '../components/Header.js'
 
 export default class HolidayScreen extends React.Component{
     static navigationOptions = {
@@ -12,7 +11,6 @@ export default class HolidayScreen extends React.Component{
     render() {
         return (
             <React.Fragment>
-                <Header />
                 <View style={styles.container}>
                     <Text style={styles.header}>Public Holidays</Text>
                     <View style={styles.item}>

@@ -2,7 +2,6 @@ import React from 'react';
 import {View, StyleSheet } from 'react-native';
 
 import ScreenName from '../components/ScreenName.js'
-import Header from '../components/Header.js'
 
 export default class ITHelpScreen extends React.Component{
     static navigationOptions = {
@@ -12,7 +11,6 @@ export default class ITHelpScreen extends React.Component{
     render() {
         return (
             <React.Fragment>
-                <Header />
                 <View style={styles.container}>
                     <ScreenName name={'IT Help'} />
                 </View>
